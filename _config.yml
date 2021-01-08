@@ -3,12 +3,12 @@
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
-# Site
+# 网站
 title: NexT
 subtitle:
 description:
 author: John Doe
-# Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
+# 支持语言: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
@@ -32,7 +32,7 @@ paginate: 10
   #paginate_path: "/page:num/"
 
 # Handling Reading
-exclude: [".rvmrc", ".rbenv-version", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
 
 # Separator
 #excerpt_separator: <!-- more -->
@@ -425,15 +425,15 @@ changyan:
   appid:
   appkey:
 
-# Support for youyan comments system.
-# You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+# 支持友言评论系统。
+# 您可以从http://www.uyan.cc获取您的uid
+# youyan_uid：你的uid
 
-# Support for LiveRe comments system.
-# You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+# 支持LiveRe评论系统。
+# 您可以从https://livere.com/insight/myCode（常规网站）获取uid。
+# livere_uid：你的uid
 
-# Support for gitalk comments system.
+# 支持gitalk评论系统。
 gitalk:
   enable: false
   clientID: # 54730ddf7b9420460c03
@@ -442,42 +442,42 @@ gitalk:
   owner: # colingpt
   admin: # colingpt
 
-# Baidu Share
-# Available value:
-#    button | slide
-# Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+# 百度分享
+# 可用值：
+#    按钮| 滑动
+# 警告：百度共享不支持https。
+# 百度分享：
+# 类型：按钮
 
-# Share
-#jiathis:
-# Warning: JiaThis does not support https.
-#add_this_id:
+# 分享
+# jiathis：
+# 警告：JiaThis不支持https。
+# add_this_id：
 
-# Share
-#duoshuo_share: true
+# 分享
+# duoshuo_share：真
 
-# Google Webmaster tools verification setting
-# See: https://www.google.com/webmasters/
-#google_site_verification:
+# 谷歌网站管理员工具验证设置
+# 参见：https：//www.google.com/webmasters/
+# google_site_verification：
 
-# Google Analytics
-#google_analytics:
+# 谷歌Analytics（分析）
+# google_analytics：
 
-# Yandex Webmaster tools verification setting
-# See: https://webmaster.yandex.ru/
-#yandex_site_verification:
+# Yandex的网站站长工具验证设置
+# 参见：https：//webmaster.yandex.ru/
+# yandex_site_verification：
 
-# CNZZ count
-#cnzz_siteid:
+# CNZZ计数
+# cnzz_siteid：
 
-# Application Insights
-# See https://azure.microsoft.com/en-us/services/application-insights/
-# application_insights:
+# 应用洞察
+# 参见https://azure.microsoft.com/en-us/services/application-insights/
+# application_insights：
 
-# Make duoshuo show UA
-# user_id must NOT be null when admin_enable is true!
-# you can visit http://dev.duoshuo.com get duoshuo user id.
+# 让多硕秀UA
+# 如果admin_enable为true，则user_id不得为null！
+# 您可以访问http://dev.duoshuo.com获取duoshuo用户ID。
 duoshuo_info:
   ua_enable: true
   admin_enable: false
