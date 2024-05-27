@@ -1,4 +1,4 @@
-IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
+IP鍦板潃,绔彛,TLS,鏁版嵁涓績,鍦板尯,鍩庡競,缃戠粶寤惰繜,涓嬭浇閫熷害
 104.19.196.158,443,TRUE,SJC,North America,San Jose,479 ms,462 kB/s
 104.16.16.155,443,TRUE,SJC,North America,San Jose,248 ms,443 kB/s
 104.21.103.84,443,TRUE,LHR,Europe,London,218 ms,327 kB/s
